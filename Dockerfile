@@ -19,8 +19,8 @@ COPY . .
 
 # Install Python deps using uv
 RUN pip install uv && \
-    uv pip install -r requirements.txt && \
-    uv pip install git+https://github.com/ageitgey/face_recognition_models
+    uv pip install --system -r requirements.txt && \
+    uv pip install --system git+https://github.com/ageitgey/face_recognition_models
 
 # Expose port
 EXPOSE 8000
