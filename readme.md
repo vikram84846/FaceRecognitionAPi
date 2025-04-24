@@ -44,7 +44,7 @@ A simple and fast face recognition API built with [FastAPI](https://fastapi.tian
     uvicorn app.main:app --reload
 
 # Project Structure
-    ```bash
+ ```bash
     face-recognition-api/
     │
     ├── main.py                  # FastAPI app with routes
@@ -55,8 +55,8 @@ A simple and fast face recognition API built with [FastAPI](https://fastapi.tian
     └── README.md                # You're here!
 ```
 # API ENDPOINTS
-Register a New Face
-POST /register/
+**Register a New Face**
+url: POST /register/
 
 Form-data:
 
@@ -64,8 +64,8 @@ name: person's name
 
 file: image file (jpg/png)
 
-Recognize Face
-POST /recognize/
+**Recognize Face**
+url:POST /recognize/
 
 Form-data:
 
