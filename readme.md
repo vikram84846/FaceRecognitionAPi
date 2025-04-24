@@ -33,8 +33,9 @@ A simple and fast face recognition API built with [FastAPI](https://fastapi.tian
     uv venv
     .venv\Scripts\activate
 **note: make sure u have uv package manager installed if not follow the link**
-    ```bash
+   ```bash
     pip install uv
+```
 3. **Install dependecies from requirement.txt**
     ```bash
     uv pip install -r requirements.txt
